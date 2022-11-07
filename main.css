@@ -40,3 +40,155 @@ button:hover {
     border-right: 2px solid rgb(255, 19, 118);
     cursor: pointer;
 }
+
+#menu:hover {
+    border: 2px solid rgb(40, 40, 40);
+    background-color: rgb(40, 40, 40);
+}
+
+.window {
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.window2 {
+    height: -webkit-min-content;
+    width: 50%;
+    position: fixed;
+    left: 100px;
+    top: 100px;
+    border: 1px solid rgb(40, 40, 40);
+    background-color: rgb(20, 20, 20);
+}
+
+.reactions {
+    position: relative;
+    margin: auto;
+    left: 18%;
+    padding-bottom: 10px;
+}
+
+#icons {
+    position: relative;
+    color: rgb(40, 40, 40);
+    font-size: 14pt;
+    padding-right: 120px;
+}
+
+.profile {
+    display: inline-flex;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    padding-top: 10px;
+    margin-left: 10px;
+}
+
+#photo {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    clip-path: circle(25px at center);
+
+}
+
+#badge {
+    display: block;
+    width: 18px;
+    height: 18px;
+}
+
+#name {
+    font-weight: bold;
+}
+
+#username {
+    color: #8899ac;
+}
+
+#tweet {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    outline: none;
+    font-size: 18pt;
+    width: 95%;
+    background: transparent;
+    resize: none;
+    max-height: 6in;
+    padding-left: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+#console {
+    position: absolute;
+    right: 20px;
+    width: 40%;
+    top: 100px;
+    height: 85%;
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+    font-size: 16pt;
+    background: rgb(25, 25, 25);
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+}
+
+#regex {
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+#regex:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+#distort {
+    position: absolute;
+    left: 420px;
+    bottom: 300px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+#distort:hover {
+    background-color: rgb(40, 40, 40);
+}
+
+#copy {
+    position: absolute;
+    left: 640px;
+    bottom: 300px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: rgb(30, 30, 30);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    border-radius: 5px;
+}
+
+#copy:hover {
+    background-color: rgb(255, 19, 118);
+}

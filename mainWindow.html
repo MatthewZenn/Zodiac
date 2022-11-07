@@ -6,17 +6,34 @@
         <title>Zodiac</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://kit.fontawesome.com/d15157182d.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
         <div class="panel">
+            <button id="menu"><img src="Assets/menu.png"></button>
             <button><img src="Assets/Mockingjay.png"></button>
             <button><img src="Assets/Cephalon.png"></button>
-            <button><img></button>
-            <button><img></button>
-            <button><img></button>
-            <button><img></button>
-            <button><img></button>
+        </div>
+        <div class="window">
+            <div id="result" class="window2">
+                <div class="profile">
+                    <img id="photo" src="Assets/profile.png">
+                    <p id="name">Name</p>
+                    <p id="username">@Username</p>
+                </div>
+                <textarea id="tweet" placeholder="What's happening?" cols="50" rows="10" maxlength="500"></textarea>
+                <div class="reactions">
+                    <i id="icons" class="far fa-comment"></i>
+                    <i id="icons" class="fas fa-retweet"></i>
+                    <i id="icons" class="far fa-heart"></i>
+                    <i id="icons" class="far fa-bookmark"></i>
+                </div>
+            </div>
+            <button id="regex">Convert</button>
+            <button id="distort">Distort</button>
+            <button id="copy">Copy</button>
+            <textarea id="console" cols="50" rows="20" maxlength="1000"></textarea>
         </div>
         <script src="logic.js" async defer></script>
     </body>
