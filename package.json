@@ -1,0 +1,22 @@
+{
+  "name": "zodiac",
+  "version": "1.0.0",
+  "description": "a pen testing lab tool",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatthewZenn/Zodiac.git"
+  },
+  "author": "Matthew Zenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatthewZenn/Zodiac/issues"
+  },
+  "homepage": "https://github.com/MatthewZenn/Zodiac#readme",
+  "dependencies": {
+    "electron": "^21.2.2"
+  }
+}
