@@ -37,11 +37,6 @@ img {
 }
 
 button:hover {
-    border-right: 2px solid rgb(255, 19, 118);
-    cursor: pointer;
-}
-
-#menu:hover {
     border: 2px solid rgb(40, 40, 40);
     background-color: rgb(40, 40, 40);
 }
@@ -62,7 +57,8 @@ button:hover {
     position: fixed;
     left: 100px;
     top: 100px;
-    border: 1px solid rgb(40, 40, 40);
+    border: 2px solid rgb(40, 40, 40);
+    border-radius: 5px;
     background-color: rgb(20, 20, 20);
 }
 
@@ -75,7 +71,7 @@ button:hover {
 
 #icons {
     position: relative;
-    color: rgb(40, 40, 40);
+    color: rgb(83, 83, 83);
     font-size: 14pt;
     padding-right: 120px;
 }

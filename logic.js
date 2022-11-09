@@ -20,7 +20,7 @@ document.getElementById("regex").addEventListener('click', function () {
     var re = tweet.value;
     var res = re.replace(/oe/gi, 'œ');
     re = res;
-    res = re.replace(/oo/gi, 'ꚙ');
+    res = re.replace(/oo/gi, 'ꝏ');
     re = res;
     res = re.replace(/ae/gi, 'æ');
     re = res;
@@ -35,6 +35,22 @@ document.getElementById("regex").addEventListener('click', function () {
     res = re.replace(/bl/gi, 'Ы');
     re = res;
     res = re.replace(/oy/gi, 'ѹ');
+    re = res;
+    res = re.replace(/fl/gi, 'ﬂ');
+    re = res;
+    res = re.replace(/ts/gi, 'ʦ');
+    re = res;
+    res = re.replace(/ls/gi, 'ʪ');
+    re = res;
+    res = re.replace(/ay/gi, 'ꜽ');
+    re = res;
+    res = re.replace(/av/gi, 'ꜹ');
+    re = res;
+    res = re.replace(/au/gi, 'ꜷ');
+    re = res;
+    res = re.replace(/ft/gi, 'ﬅ');
+    re = res;
+    res = re.replace(/ff/gi, 'ﬀ');
 
     tweet.value = res;
 });
