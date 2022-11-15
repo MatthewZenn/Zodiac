@@ -39,6 +39,7 @@ img {
 button:hover {
     border: 2px solid rgb(40, 40, 40);
     background-color: rgb(40, 40, 40);
+    cursor: pointer;
 }
 
 .window {

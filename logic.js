@@ -51,6 +51,8 @@ document.getElementById("regex").addEventListener('click', function () {
     res = re.replace(/ft/gi, 'ﬅ');
     re = res;
     res = re.replace(/ff/gi, 'ﬀ');
+    re = res;
+    res = re.replace(/~k/gi, 'ꓘ');
 
     tweet.value = res;
 });
